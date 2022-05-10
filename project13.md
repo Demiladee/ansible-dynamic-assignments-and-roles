@@ -116,6 +116,10 @@ additional nginx configuration before running play
 
 ![](images/nginxtemplatesconf.png)
 
+updating env-vars/uat.yml to enable nginx loadbalancer
+
+![](images/envvarsnginx.png)
+
 running nginx play
 
 `$ ansible-playbook -i inventory/uat.yml playbooks/site.yml`
